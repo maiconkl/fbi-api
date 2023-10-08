@@ -1,0 +1,26 @@
+
+// lista procurados pelo FBI
+https://api.fbi.gov/wanted/v1/list
+
+// informa procurado pelo id
+https://api.fbi.gov/wanted/v1/object/{id}
+
+https://api.fbi.gov/@wanted-person/6d48971b0cc2449693a1d027beb41f8a
+
+
+//Exibe Foto
+
+https://www.fbi.gov/wanted/kidnap/jason-jolkowski/@@images/image/thumb
+
+https://www.fbi.gov/wanted/kidnap/jason-jolkowski/@@images/image
+
+resposta.images[0].large
+
+//Pesquisar procurados do fbi
+
+https://api.fbi.gov/wanted/v1/list?title=${termoPesquisa}
+
+//Nomes para pesquisa direto do FBI
+
+https://www.fbi.gov/wanted/topten
+

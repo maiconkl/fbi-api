@@ -1,0 +1,13 @@
+.card {
+    /* Estilos padrão do card */
+    /* ... */
+    transition: box-shadow 0.3s; /* Adiciona uma transição suave para o efeito de sombreamento */
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Efeito de sombreamento quando o mouse passa por cima */
+}
+
+body{
+    background-color: black;
+}
