@@ -70,7 +70,7 @@ function inicial(id) {
                         <h6 class="card-subtitle mb-2 text-muted">Raça: ${resposta.race}</h6>
                         <h6 class="card-subtitle mb-2 text-muted">Idade: ${resposta.age_range}</h6>
                         <h6 class="card-subtitle mb-2 text-muted">Ocupação: ${resposta.occupations}</h6>
-                        <h6 class="card-subtitle mb-2 text-muted">Nacionalidade: ${resposta.place_of_birth}</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Local De Nascimento: ${resposta.place_of_birth}</h6>
                         <h6 class="card-subtitle mb-2 text-muted">Classificação: ${resposta.poster_classification}</h6>
                         <button type="button" class="btn btn-primary" onclick="downloadFile('${resposta.files[0].url}', '${resposta.files[0].name}')">Arquivo</button>
                     </div>
